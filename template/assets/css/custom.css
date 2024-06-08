@@ -1,0 +1,45 @@
+.custom-single-doctor {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px); 
+}
+
+.custom-single-doctor:before {
+  left: -170%;
+  -webkit-transition-delay: .8s;
+          transition-delay: .8s;
+}
+
+.custom-single-doctor .doctor-content {
+  -webkit-transform: perspective(300px) rotateX(0deg);
+          transform: perspective(300px) rotateX(0deg);
+}
+
+.custom-single-doctor ul li {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+
+.navbar-brand-custom::before {
+  background-color: white !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .mean-container .mean-bar {
+    background-color: #122738 !important;
+    height: 95px !important;
+  }
+
+  .mobile-nav nav .navbar-nav {
+    height: 100%;
+    background-color: #122738;
+  }
+
+  .mobile-nav.mean-container .mean-nav {
+    margin-top: 90px;
+  }
+}
+
+
+.about-content ul {
+  margin-top: 30px;
+}
